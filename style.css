@@ -1,0 +1,205 @@
+.grid {
+    display: grid;
+    width: 1040px;
+    height: 740px;
+    grid-template-rows: 5% repeat(7, 1fr);
+    grid-template-columns: 35% repeat(26, 2fr);
+
+}
+
+
+.box {
+    background-color: beige;
+
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 29;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #8de3d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+.aa{
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8de3d8;
+}
+
+
+.ab{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 11;
+    background-color: white;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 26px;
+}
+
+td{
+    padding: 10px;
+}
+
+.tick{
+    vertical-align: top;
+}
+
+.prov{
+  
+    padding-top: 50px;
+    color: #115749;
+    width: 100%;
+    text-align: center;
+}
+
+#providr{
+    font-size: 27px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.small{
+    color: black;
+    font-size: 16px;
+}
+
+.ac{
+    grid-column-start: 9;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8de3d8;
+}
+
+
+
+.ad{
+    grid-column-start: 14;
+    grid-column-end: 19;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8de3d8;
+    padding: 20px;
+    font-family: Chivo;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ad:hover{
+    color: white;
+}
+
+
+
+.ae{
+    grid-column-start: 19;
+    grid-column-end: 24;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8de3d8;
+    padding: 20px;
+    font-family: Chivo;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ae:hover{
+    color: white;
+}
+
+.af{
+    grid-column-start: 24;
+    grid-column-end: 29;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8de3d8;
+    padding: 20px;
+    font-family: Chivo;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.af:hover{
+    color: white;
+}
+
+.b{
+
+    background-color: white;
+}
+
+.c{ 
+    grid-COLUMN-start: 3;
+    grid-COLUMN-end: 29;
+    grid-row-start: 3;
+    grid-row-end: 11;
+    background-image: url("./img/food-transparent.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.d{ 
+    grid-COLUMN-start: 7;
+    grid-COLUMN-end: 24;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: #307366;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.d:hover{
+    color: black;
+}
+
+.e{ 
+    grid-COLUMN-start: 7;
+    grid-COLUMN-end: 24;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.e:hover{
+    color: #118a72;
+}
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sub{
+    font-family: Chivo;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+   all:unset;
+}
